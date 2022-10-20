@@ -1,0 +1,14 @@
+#  tailwindcss-setup-examples/examples/sapper/
+
+https://github.com/tailwindlabs/tailwindcss-setup-examples/tree/master/examples/sapper
+
+
+npm install tailwindcss postcss-cli --save-dev
+
+npm install @fullhuman/postcss-purgecss
+
+npx tailwind init tailwind.js
+
+npm install
+
+
