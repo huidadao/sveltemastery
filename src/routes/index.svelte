@@ -1,5 +1,6 @@
 <script>
 	import successkid from 'images/successkid.jpg';
+	import TransitionWrapper from '../components/TransitionWrapper.svelte';
 </script>
 
 <style>
@@ -40,7 +41,8 @@
 	<title>Sapper project template</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<TransitionWrapper>
+<h1 class="bg-purple-400 text-white sm:bg-purple-100 sm:text-black">Great success!</h1>
 
 <figure>
 	<img alt="Success Kid" src="{successkid}">
@@ -48,3 +50,4 @@
 </figure>
 
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+</TransitionWrapper>
